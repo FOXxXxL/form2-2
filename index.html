@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>формы 2</title>
+</head>
+<body>
+    <form action="" method="">
+        <label for="">
+            ФИО
+            <input type="text" name="fio" placeholder="ifanof ivan ivanovich">
+        </label>
+        <hr/>
+        <label for="">
+            Возраст
+            <input type="number" name="age">
+        </label>
+        <hr/>
+        <label for="">
+            Email
+            <input type="email" name="email">
+        </label>
+        <hr/>
+        <fieldset>
+            <legend>Кто ты?</legend>
+            <label for="men">
+                <input type="radio" name="sex" value="men" checked id="men">
+                мужчина
+            </label>
+            <label for="nomen">   
+                <input type="radio" name="sex" value="woomen" id="nomen">
+                не_мужчина
+            </label>
+        </fieldset>
+        <hr/>
+            <select name="spisok" id="" multiple>
+                <option value="1">Ресторан на 1</option>
+                <option value="2">Ресторан на 2</option>
+                <option value="3">Ресторан на 3</option>
+            </select>
+        <hr/>
+            <fieldset>
+                <legend>Ну как тебе? класно было?</legend>
+                <label for="kithen">
+                    <input type="checkbox" name="fav" value="people" id="kithen">ребята(шныри по кухни)
+                </label> 
+                <label for="place">
+                    <input type="checkbox" name="fav" value="spisok" id="place">четкое место
+                </label>
+                <label for="eda">
+                    <input type="checkbox" name="fav" value="food" id="eda">Хавка как у бабки дома
+                </label>   
+            </fieldset>
+        <hr/>
+            <textarea name="coment" id="" cols="30" rows="10" placeholder="Накалякай сюда"></textarea>
+        <hr/>
+        <label for="">
+            Накинь слайдов
+            <input type="file" name="file" value="file" multiple>
+        </label>
+        <hr/>
+        <button type="submit">
+            Отправить
+        </button>
+    </form>
+</body>
+</html>
